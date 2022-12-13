@@ -25,7 +25,7 @@
                             <button class="btn btn-success" v-on:click="calcularAreaTriangulo"><strong>Calcular</strong></button>
                         </div>
                     </div>
-                    <p class="card-text"><small class="text-dark"><strong>Area del trinagulo = </strong>{{Area}}</small></p>
+                    <p class="card-text"><small class="text-dark"><strong>Area del triangulo = </strong>{{Area}}</small></p>
                 </div>
                 </div>
             </div>

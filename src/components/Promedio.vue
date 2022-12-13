@@ -75,6 +75,7 @@
 
 .header{
     background: linear-gradient(#020024, #6f238a, #00d4ff  ) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 

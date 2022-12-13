@@ -1,16 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+
 import ejercicioVue from '../components/ejercicioVue'
 import Juego from '../components/Juego.vue'
 import Figuras from '../components/Figuras.vue'
 import Promedio from '../components/Promedio.vue'
+import Pitagoras from '../components/Pitagoras.vue'
+import ApiRest from '../components/ApiRest'
 
 const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  },
+  
   {
     path: '/ejercicio',
     name: 'ejercicioVue',
@@ -30,6 +28,16 @@ const routes = [
     path: '/promedio',
     name: 'Promedio',
     component: Promedio
+  },
+  {
+    path: '/pitagoras',
+    name: 'Pitagoras',
+    component: Pitagoras
+  },
+  {
+    path: '/api',
+    name: 'ApiRest',
+    component: ApiRest
   },
   {
     path: '/about',
